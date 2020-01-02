@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		945AC3D8237096DC00DC7C9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 945AC3D7237096DC00DC7C9F /* AppDelegate.m */; };
+		945AC3DE237096DC00DC7C9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 945AC3DC237096DC00DC7C9F /* Main.storyboard */; };
+		945AC3E0237096DF00DC7C9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 945AC3DF237096DF00DC7C9F /* Assets.xcassets */; };
+		945AC3E3237096DF00DC7C9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 945AC3E1237096DF00DC7C9F /* LaunchScreen.storyboard */; };
+		945AC3E6237096DF00DC7C9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 945AC3E5237096DF00DC7C9F /* main.m */; };
+		945AC3EF2370B68A00DC7C9F /* SEP.m in Sources */ = {isa = PBXBuildFile; fileRef = 945AC3EE2370B68A00DC7C9F /* SEP.m */; };
+		949DAB922372482F0018C9A7 /* LocalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 949DAB912372482F0018C9A7 /* LocalViewController.m */; };
+		949DAB9523724A770018C9A7 /* ExchangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 949DAB9423724A770018C9A7 /* ExchangeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		945AC3D3237096DC00DC7C9F /* SecureEnclaveKeyExchange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecureEnclaveKeyExchange.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		945AC3D6237096DC00DC7C9F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		945AC3D7237096DC00DC7C9F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		945AC3DD237096DC00DC7C9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		945AC3DF237096DF00DC7C9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		945AC3E2237096DF00DC7C9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		945AC3E4237096DF00DC7C9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		945AC3E5237096DF00DC7C9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		945AC3ED2370B68A00DC7C9F /* SEP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEP.h; sourceTree = "<group>"; };
+		945AC3EE2370B68A00DC7C9F /* SEP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEP.m; sourceTree = "<group>"; };
+		949DAB902372482F0018C9A7 /* LocalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalViewController.h; sourceTree = "<group>"; };
+		949DAB912372482F0018C9A7 /* LocalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalViewController.m; sourceTree = "<group>"; };
+		949DAB9323724A770018C9A7 /* ExchangeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExchangeViewController.h; sourceTree = "<group>"; };
+		949DAB9423724A770018C9A7 /* ExchangeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExchangeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		945AC3D0237096DC00DC7C9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		945AC3CA237096DC00DC7C9F = {
+			isa = PBXGroup;
+			children = (
+				945AC3D5237096DC00DC7C9F /* SecureEnclaveKeyExchange */,
+				945AC3D4237096DC00DC7C9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		945AC3D4237096DC00DC7C9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				945AC3D3237096DC00DC7C9F /* SecureEnclaveKeyExchange.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		945AC3D5237096DC00DC7C9F /* SecureEnclaveKeyExchange */ = {
+			isa = PBXGroup;
+			children = (
+				945AC3EC2370B63A00DC7C9F /* utils */,
+				945AC3D6237096DC00DC7C9F /* AppDelegate.h */,
+				945AC3D7237096DC00DC7C9F /* AppDelegate.m */,
+				945AC3DC237096DC00DC7C9F /* Main.storyboard */,
+				945AC3DF237096DF00DC7C9F /* Assets.xcassets */,
+				945AC3E1237096DF00DC7C9F /* LaunchScreen.storyboard */,
+				945AC3E4237096DF00DC7C9F /* Info.plist */,
+				945AC3E5237096DF00DC7C9F /* main.m */,
+				949DAB902372482F0018C9A7 /* LocalViewController.h */,
+				949DAB912372482F0018C9A7 /* LocalViewController.m */,
+				949DAB9323724A770018C9A7 /* ExchangeViewController.h */,
+				949DAB9423724A770018C9A7 /* ExchangeViewController.m */,
+			);
+			path = SecureEnclaveKeyExchange;
+			sourceTree = "<group>";
+		};
+		945AC3EC2370B63A00DC7C9F /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				945AC3ED2370B68A00DC7C9F /* SEP.h */,
+				945AC3EE2370B68A00DC7C9F /* SEP.m */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		945AC3D2237096DC00DC7C9F /* SecureEnclaveKeyExchange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 945AC3E9237096DF00DC7C9F /* Build configuration list for PBXNativeTarget "SecureEnclaveKeyExchange" */;
+			buildPhases = (
+				945AC3CF237096DC00DC7C9F /* Sources */,
+				945AC3D0237096DC00DC7C9F /* Frameworks */,
+				945AC3D1237096DC00DC7C9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecureEnclaveKeyExchange;
+			productName = SecureEnclaveKeyExchange;
+			productReference = 945AC3D3237096DC00DC7C9F /* SecureEnclaveKeyExchange.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		945AC3CB237096DC00DC7C9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = smisiewicz;
+				TargetAttributes = {
+					945AC3D2237096DC00DC7C9F = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 945AC3CE237096DC00DC7C9F /* Build configuration list for PBXProject "SecureEnclaveKeyExchange" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 945AC3CA237096DC00DC7C9F;
+			productRefGroup = 945AC3D4237096DC00DC7C9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				945AC3D2237096DC00DC7C9F /* SecureEnclaveKeyExchange */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		945AC3D1237096DC00DC7C9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				945AC3E3237096DF00DC7C9F /* LaunchScreen.storyboard in Resources */,
+				945AC3E0237096DF00DC7C9F /* Assets.xcassets in Resources */,
+				945AC3DE237096DC00DC7C9F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		945AC3CF237096DC00DC7C9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				945AC3EF2370B68A00DC7C9F /* SEP.m in Sources */,
+				949DAB922372482F0018C9A7 /* LocalViewController.m in Sources */,
+				945AC3E6237096DF00DC7C9F /* main.m in Sources */,
+				949DAB9523724A770018C9A7 /* ExchangeViewController.m in Sources */,
+				945AC3D8237096DC00DC7C9F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		945AC3DC237096DC00DC7C9F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				945AC3DD237096DC00DC7C9F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		945AC3E1237096DF00DC7C9F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				945AC3E2237096DF00DC7C9F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		945AC3E7237096DF00DC7C9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		945AC3E8237096DF00DC7C9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		945AC3EA237096DF00DC7C9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LZNTALU69F;
+				INFOPLIST_FILE = SecureEnclaveKeyExchange/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smisiewicz.SecureEnclaveKeyExchange;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		945AC3EB237096DF00DC7C9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LZNTALU69F;
+				INFOPLIST_FILE = SecureEnclaveKeyExchange/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smisiewicz.SecureEnclaveKeyExchange;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		945AC3CE237096DC00DC7C9F /* Build configuration list for PBXProject "SecureEnclaveKeyExchange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				945AC3E7237096DF00DC7C9F /* Debug */,
+				945AC3E8237096DF00DC7C9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		945AC3E9237096DF00DC7C9F /* Build configuration list for PBXNativeTarget "SecureEnclaveKeyExchange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				945AC3EA237096DF00DC7C9F /* Debug */,
+				945AC3EB237096DF00DC7C9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 945AC3CB237096DC00DC7C9F /* Project object */;
+}

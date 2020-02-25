@@ -250,5 +250,3 @@ print binascii.b2a_hex(final_ct)
 print "\nFinal message, Base-64 Encoded, to drop back into the demo app:\n"
 
 print base64.b64encode(final_ct)
-
-
